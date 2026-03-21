@@ -1,4 +1,6 @@
-# Code Library
+![The 4ever Library](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/banner.png)
+
+---
 
 A shared reference for everything code. Notes, snippets, and small examples
 covering programming languages, web development, and cybersecurity all in
