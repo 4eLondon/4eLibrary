@@ -1,4 +1,4 @@
-![The 4ever Library](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/banner.png)
+![Terminal vs VS Code side by side](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/banner.png)
 
 ---
 
