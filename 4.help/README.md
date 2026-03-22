@@ -303,6 +303,7 @@ appears where you can switch to any existing branch.
 
 ![VS Code branch switcher lead](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/git-vscode-branch-switcher-lead.png)
 
+---
 
 ![VS Code branch switcher](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/git-vscode-branch-switcher.png)
 
