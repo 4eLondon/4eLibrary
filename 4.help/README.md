@@ -294,7 +294,7 @@ At the bottom left of VS Code you will see the current branch name and two
 small arrows — one pointing up (push) and one pointing down (pull). Click
 them to sync with GitHub.
 
-![VS Code push pull bar](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/git-vscode-push-pull.png)
+![VS Code push pull bar](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/git-vscode-pull-push.png)
 
 ### Switching branches
 
@@ -302,6 +302,8 @@ Click the branch name in the bottom left corner of VS Code. A dropdown
 appears where you can switch to any existing branch.
 
 ![VS Code branch switcher lead](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/git-vscode-branch-switcher-lead.png)
+
+
 ![VS Code branch switcher](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/git-vscode-branch-switcher.png)
 
 ### When to use the terminal inside VS Code
