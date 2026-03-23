@@ -1,0 +1,14 @@
+this command works simular to cd exacpt it leads you to a directory and offers a way back out of it
+this comman works on a stack meaning you can repeat the command to go deeper into directorys
+and have a rope to pull you back to where your were before
+
+```
+pushd destination 
+```
+this sends you to a directory
+
+
+```
+popd
+```
+this will then return you from where you came

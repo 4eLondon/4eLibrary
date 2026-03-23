@@ -4,6 +4,7 @@
 ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?logo=vuedotjs&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?logo=svelte&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
@@ -12,6 +13,7 @@
 ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)
 
