@@ -1,10 +1,11 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class UserInput {
+public class userinput {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     System.out.print("Please enter your name: ");
-    String name = scanner.nextLine();
+    String name = input.nextLine();
     System.out.println("Hello " + name + "!");
+    input.close();
   }
 }
