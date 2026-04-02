@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/5.assets/images/banner.png)
+![Banner](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/banner.png)
 
 ---
 
