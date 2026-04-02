@@ -1,6 +1,6 @@
-// -o-o-o-o-o- SIMPLE ARITMATIC -o-o-o-o-o-
+// -o-o-o-o-o- SIMPLE ARITHMATIC -o-o-o-o-o-
 
-/* This file goes over how to do basic aritmatic operations in C simply.
+/* This file goes over how to do basic arithmatic operations in C simply.
  *
  *  # # # # KEY # # # #
  *
