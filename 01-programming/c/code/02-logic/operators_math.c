@@ -1,6 +1,6 @@
-// -o-o-o-o- ARITMATIC OPERATORS -o-o-o-o-
+// -o-o-o-o- ARITHMATIC OPERATORS -o-o-o-o-
 
-/* This file covers the basics of simple aritmatic in C.
+/* This file covers the basics of simple arithmatic in C.
  * Addtion, Subtraction, Division and Multiplication are covered.
  * Format specifiers are used to represnt data types in our output. In C we
  * can not simply plug a variable into a print statement, we must first assign
