@@ -9,6 +9,10 @@
  * which will then print the text to the console. \n represents
  * a newline. C does not create newlines automatically so inorder to
  * skip to the newline we must invoke \n within the "" of our printf.
+ *
+ * # # # # KEY # # # #
+ *
+ * \n - creates a new line
  */
 
 #include <stdio.h>

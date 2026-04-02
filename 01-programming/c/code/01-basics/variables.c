@@ -14,6 +14,14 @@
  *
  * Note that chars are noted by single quotes ('') while strings user double
  * quotes ("").
+ *
+ * # # # # KEY # # # #
+ *
+ * %i - used to represent integer values
+ * %c - used to represent characters
+ * %s - used to represent strings
+ * %f - used to represent floating values
+ * \n - creates a new line
  * */
 
 #include <stdio.h>
@@ -25,7 +33,8 @@ int main() {
   float decimal = 3.14;
   double pi = 3.141592653589793;
   char character = 'A';
-  char string[10] = "Hello";
+  char string[10] = "Hello"; // an array of chars make a string. this one can
+                             // hold 10 letters/chars
 
   // This section prints the variables. See format specifiers for notes on the
   // symbols such as %i and %s
