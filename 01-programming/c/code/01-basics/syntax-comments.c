@@ -1,4 +1,4 @@
-// -o-o-o-o-o- COMMENTS -o-o-o-o-
+// -o-o-o-o-o- Comments -o-o-o-o-
 
 // Each of these lines are a single-line comment.
 // Note how each must start with the double forward-slash

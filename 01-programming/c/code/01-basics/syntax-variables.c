@@ -1,4 +1,4 @@
-// -o-o-o-o- VARIABLES -o-o-o-o-
+// -o-o-o-o- Variables -o-o-o-o-
 
 /* C handles variables simply. First we have a data type followed by a name then
  * a value.

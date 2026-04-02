@@ -1,4 +1,4 @@
-// -o-o-o-o- HELLO WORLD -o-o-o-o-
+// -o-o-o-o- Hello World -o-o-o-o-
 
 /* This is a simple hello world program written in C.
  * This file includes the stdio header which stands for

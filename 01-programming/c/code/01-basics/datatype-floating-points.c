@@ -1,4 +1,4 @@
-// -o-o-o-o-o- FLOATING POINT NUMBERS -o-o-o-o-o-
+// -o-o-o-o-o- Floating point numbers -o-o-o-o-o-
 
 /* Floating point numbers are numbers that include a decimal point.
  * In C we have two data types that count as floating point, those being

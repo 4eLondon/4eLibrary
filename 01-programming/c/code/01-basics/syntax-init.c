@@ -1,4 +1,4 @@
-//  -o-o-o-o-o- C FILE INITIALIZATION -o-o-o-o-o-
+//  -o-o-o-o-o- C File Initialization -o-o-o-o-o-
 
 /* In C there are a few things to include in most files.
  *

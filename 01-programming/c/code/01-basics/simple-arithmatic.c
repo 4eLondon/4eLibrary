@@ -1,4 +1,4 @@
-// -o-o-o-o-o- SIMPLE ARITHMATIC -o-o-o-o-o-
+// -o-o-o-o-o- Simple arithmatic -o-o-o-o-o-
 
 /* This file goes over how to do basic arithmatic operations in C simply.
  *

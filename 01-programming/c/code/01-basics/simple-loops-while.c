@@ -1,4 +1,4 @@
-// -o-o-o-o- Simple loops -o-o-o-o-
+// -o-o-o-o- Simple loops (while) -o-o-o-o-
 
 /* This file goes over how to do a basic while loop in C simply.
  *
@@ -41,7 +41,7 @@ int main() {
   }
 
   printf("Variable A is now equal to or less than 10. Variable A equals %i "
-         "Loop complete \n",
+         "While loop complete \n",
          a);
 
   return 0;
