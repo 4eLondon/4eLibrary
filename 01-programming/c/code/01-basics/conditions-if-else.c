@@ -1,4 +1,4 @@
-// -o-o-o-o- Simple logic -o-o-o-o-
+// -o-o-o-o- Conditions (If else) -o-o-o-o-
 
 /* This file goes over how to do a basic if else statements in C simply.
  *
