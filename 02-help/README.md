@@ -35,7 +35,7 @@ commands directly. This is useful for commands the GUI does not expose —
 like creating branches or managing remotes — but it is not the main way
 of using Git in VS Code. The Source Control panel is.
 
-![Terminal vs VS Code side by side](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/terminal-vscode.png)
+![Terminal vs VS Code side by side](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/terminal-vscode.png)
 
 ---
 
@@ -59,7 +59,7 @@ brew install git
 Download from [git-scm.com](https://git-scm.com). The installer also gives
 you Git Bash, a terminal that works the same as Linux/Mac.
 
-![Git Windows installer](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-install-windows.png)
+![Git Windows installer](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-install-windows.png)
 
 ### Configure your identity
 
@@ -80,7 +80,7 @@ icon on the left sidebar) becomes active.
 For a better experience install the **GitLens** extension — it adds inline
 blame, history views, and more detail to the built-in Git panel.
 
-![VS Code Source Control sidebar](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-sidebar.png)
+![VS Code Source Control sidebar](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-sidebar.png)
 
 ---
 
@@ -98,7 +98,7 @@ blame, history views, and more detail to the built-in Git panel.
 | **Stage**             | Mark specific changes to be included in the next commit.                          |
 | **Clone**             | Download a remote repo to your machine for the first time.                        |
 
-![Git flow diagram](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-flow-diagram.png)
+![Git flow diagram](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-flow-diagram.png)
 
 ---
 
@@ -118,7 +118,7 @@ Or initialise Git in an existing folder:
 git init
 ```
 
-![Git clone in terminal](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-clone-terminal.png)
+![Git clone in terminal](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-clone-terminal.png)
 
 ---
 
@@ -136,7 +136,7 @@ See the actual changes line by line:
 git diff
 ```
 
-![Git status output](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-status-terminal.png)
+![Git status output](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-status-terminal.png)
 
 ---
 
@@ -160,7 +160,7 @@ Commit with a message:
 git commit -m "Add for loop snippet to python/snippets"
 ```
 
-![Git add and commit](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-add-commit-terminal.png)
+![Git add and commit](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-add-commit-terminal.png)
 
 ---
 
@@ -178,7 +178,7 @@ Pull the latest changes from GitHub:
 git pull origin branch-name
 ```
 
-![Git push output](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-push-terminal.png)
+![Git push output](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-push-terminal.png)
 
 ---
 
@@ -214,7 +214,7 @@ Push a new branch up to GitHub:
 git push origin branch-name
 ```
 
-![Git branch list](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-branch-terminal.png)
+![Git branch list](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-branch-terminal.png)
 
 ---
 
@@ -232,7 +232,7 @@ See a compact one-line version:
 git log --oneline
 ```
 
-![Git log output](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-log-terminal.png)
+![Git log output](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-log-terminal.png)
 
 ---
 
@@ -263,7 +263,7 @@ git restore filename.py
 Click the branching icon in the left sidebar or press `Ctrl+Shift+G`.
 This is where all your Git actions live in VS Code.
 
-![VS Code Source Control panel](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-source.png)
+![VS Code Source Control panel](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-source.png)
 
 ### Seeing what changed
 
@@ -271,14 +271,14 @@ Any file you have modified appears in the **Changes** list automatically.
 Click a file to open a diff view showing exactly what was added or removed —
 green lines were added, red lines were removed.
 
-![VS Code diff view](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-diff.png)
+![VS Code diff view](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-diff.png)
 
 ### Staging changes
 
 Hover over a file in the Changes list and click the **+** icon to stage it.
 To stage everything at once click the **+** next to the Changes heading.
 
-![VS Code staging a file](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-stage.png)
+![VS Code staging a file](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-stage.png)
 
 ### Committing
 
@@ -286,7 +286,7 @@ Type your commit message in the box at the top of the Source Control panel
 and press `Ctrl+Enter` (or click the tick ✓). This commits everything that
 is staged.
 
-![VS Code commit message](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-commit.png)
+![VS Code commit message](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-commit.png)
 
 ### Pushing and pulling
 
@@ -294,18 +294,18 @@ At the bottom left of VS Code you will see the current branch name and two
 small arrows — one pointing up (push) and one pointing down (pull). Click
 them to sync with GitHub.
 
-![VS Code push pull bar](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-pull-push.png)
+![VS Code push pull bar](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-pull-push.png)
 
 ### Switching branches
 
 Click the branch name in the bottom left corner of VS Code. A dropdown
 appears where you can switch to any existing branch.
 
-![VS Code branch switcher lead](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-branch-switcher-lead.png)
+![VS Code branch switcher lead](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-branch-switcher-lead.png)
 
 ---
 
-![VS Code branch switcher](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-branch-switcher.png)
+![VS Code branch switcher](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-branch-switcher.png)
 
 ### When to use the terminal inside VS Code
 
@@ -319,7 +319,7 @@ git log --oneline               # view commit history
 git restore --staged filename   # unstage a specific file
 ```
 
-![VS Code integrated terminal](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/05-assets/images/git-vscode-terminal.png)
+![VS Code integrated terminal](https://raw.githubusercontent.com/4eLondon/4eLibrary/main/03-assets/images/git-vscode-terminal.png)
 
 ---
 
