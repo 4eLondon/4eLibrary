@@ -1,15 +1,60 @@
 #!/usr/bin/env python3
-
+from sympy import randprime
 import math
 
+# ------------------------------------------------------ #
+#                      Used items                        #
+# ------------------------------------------------------ #
+"""
+ randprime - this comes from the sympy package and simply assigns a randomprime number. Install sympt via `pip install sympy`
+
+ assert - ensures a statement is true else the program exits with an error
+
+ math.gcd(num1,num2) - calculates the greatest common divisor between numbers
+
+ ord(character) - this function is used to conver indiviual letters in their ascii/numerical values. Letter 'a' becomes '97' becomes in ascii '97' represents a common 'a'.
+
+ pow(base, exponent, modulus) - this function calculates a our base to the power of our exponent eg. 6^4 or 6x6x6x6. The modulus value is optional and simply takes the remaineder of the first part and divides it by itself. mod is short for modulus same as remaineder, all are the same thing.
+
+ append - adds data to a list
+
+"""
+
+
+# ------------------------------------------------------ #
+#                      Code                       #
+# ------------------------------------------------------ #
 """
  - - - Choose Two prime numbers - - -
 
  We begin by establising our prime numbers, these numbers are the building blocks of rsa encrytion.
-
  Large numbers are choosen due to the fact reverse enginnering them often offers the wrong outcomes.
+
+ In the example below we randomly set a prime number at program runtime in the range 1000 to 9999. These numbers
+ are large enough but the give a good enough margin to work in.
+
+ assert ensures the variable itsnt still none and late those variables are converted to integers so math can be done.
+
 """
-p = 61; q =43
+p = None
+q = None
+
+while q is None:
+    result = randprime(1000, 9999)
+    assert result is not None
+    q = int(result)
+    pass
+
+while p is None:
+    result = randprime(1000, 9999)
+    assert result is not None
+    p = int(result)
+    pass
+
+print("")
+print(type(p))
+print(type(q))
+print("")
 
 print(f"p = {p}  q = {q}")
 
@@ -90,7 +135,7 @@ print(f"public key = {e},{n}")
 
  The private exponent, variable d, alongside variable n combine to create our private key. Never share the private key, only the public one.
 
- the process of inversing e to get veriable d is simple, we just raise 3 to the power of -1
+ the process of inversing e to get veriable d is simple, we just raise e to the power of -1
 """
 
 d = pow(e, -1, phi_n)
@@ -100,13 +145,26 @@ print(f"private key = {d},{n}")
 """
  - - - Messages encryption - - -
 
- Finally we can encode our message
+ Finally we can encode our message.
 
+ first we create an empty array to hold our encryted messgage later.
 
+ This step is done by taking our initial message and seperating it into indiviual letter/characters this is our variable m.
+ Next we calculate variable x to the power of our public exponent for each letter, the  remaineder is then divideded by our variable n. This is our variable c.
+
+ we complete this step by simply added each letter to our empty array and write our code into a file so it can be decrypted later.
 
 """
+print("Enter your message (Ctrl+C to finish):")
+lines = []
+try:
+    while True:
+        lines.append(input())
+except KeyboardInterrupt:
+    pass
 
-message = input("Enter your message here: ")
+message = "\n".join(lines)
+
 print (f"Your message was: {message}")
 
 encrypt = []
@@ -116,4 +174,10 @@ for letter in message:
     encrypt.append(c)
 
 print(f"The encryted version of {message} is {encrypt}")
+print(f"Your key is {d},{n} share it to others.")
 
+with open("key.txt", "w") as f:
+    print(f"{d},{n}", file=f)
+
+with open("encryted.txt", "w") as f:
+    print(f"{encrypt}", file=f)
