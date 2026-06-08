@@ -20,7 +20,6 @@ This directory contains sub-folders for the following languages:
     *   `python`
     *   `ruby`
     *   `lua`
-    *   `javascript` (if present, or remove if not)
     *   `bash`
     *   `go`
 
