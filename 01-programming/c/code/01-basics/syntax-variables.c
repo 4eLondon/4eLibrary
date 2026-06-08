@@ -8,12 +8,17 @@
  * char - single characters/letters
  * float - floating point aka decimals numbers
  * double - More precise decimal values
+ * bool - True or false values
  *
+ * - - - - NOTE - - - -
  * Strings do not exist in C. Strings are instead char arrays, each letter of a
  * word is stored as a char that combine to create strings.
  *
  * Note that chars are noted by single quotes ('') while strings user double
  * quotes ("").
+ *
+ * In order to use bools (Booleans), we must have #include<stdbool> in order to
+ * use them
  *
  * # # # # KEY # # # #
  *
@@ -24,6 +29,7 @@
  * \n - creates a new line
  * */
 
+#include <stdbool.h>
 #include <stdio.h>
 
 int main() {
@@ -32,6 +38,7 @@ int main() {
   int number = 7;
   float decimal = 3.14;
   double pi = 3.141592653589793;
+  bool boolean = true;
   char character = 'A';
   char string[10] = "Hello"; // an array of chars make a string. this one can
                              // hold 10 letters/chars
@@ -45,6 +52,9 @@ int main() {
   printf("This is a float, It is used for decimal values: %g\n", decimal);
   printf("This is a double, It is used for precise decimal values: %f\n", pi);
   printf("This is a string, It is used for words: %s\n", string);
+  printf("This is a bool, It is used for true or false values. 1 mean true "
+         "whiles 0 means false: %b\n",
+         boolean);
 
   return 0;
 }
