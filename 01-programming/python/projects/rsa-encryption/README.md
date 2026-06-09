@@ -17,7 +17,7 @@ python rsa-encryption-simple.py
 And the decoder:
 
 ```
-python rsa-decryption-simple.py
+python rsa-decoder-simple.py
 ```
 
 The encoder will produce two files:
